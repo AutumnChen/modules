@@ -1,0 +1,6 @@
+{
+	"scripts":{
+		"start": "webpack-dev-server -d  --inline --progress --colors --port 9999",
+		"build": "rm -rf dist/ && webpack --config webpack.config.prod.js --progress --colors"
+	}
+}
